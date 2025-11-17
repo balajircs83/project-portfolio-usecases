@@ -1,0 +1,27 @@
+services:
+  # Backend API Service
+  - type: web
+    name: knowledge-workspace-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    rootDir: backend
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: 30
+    healthCheckPath: /docs
+    autoDeploy: true
+
+databases:
+  # Optional: Add PostgreSQL database for production
+  # Uncomment below if you want to use PostgreSQL instead of SQLite
+  # - name: knowledge-workspace-db
+  #   databaseName: knowledge_workspace
+  #   user: knowledge_user
+  #   plan: free

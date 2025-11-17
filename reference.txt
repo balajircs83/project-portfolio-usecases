@@ -1,0 +1,23 @@
+
+PS E:\mycode\knowledge-workspace> vercel
+Vercel CLI 48.9.0
+? Set up and deploy “E:\mycode\knowledge-workspace”? yes
+? Which scope should contain your project? Balaji's projects
+? Link to existing project? no
+? What’s your project’s name? project-porfolio-usecase
+? In which directory is your code located? ./
+Auto-detected Project Settings (Vite):
+- Build Command: vite build
+- Development Command: vite --port $PORT
+- Install Command: `yarn install`, `pnpm install`, `npm install`, or `bun install`
+- Output Directory: dist
+? Want to modify these settings? no
+? Do you want to change additional project settings? no
+🔗  Linked to balajis-projects-847eab8f/project-porfolio-usecase (created .vercel and added it to .gitignore)
+? Detected a repository. Connect it to this project? yes
+> Connecting GitHub repository: https://github.com/balajircs83/project-portfolio-usecases
+> Connected
+🔍  Inspect: https://vercel.com/balajis-projects-847eab8f/project-porfolio-usecase/AZUtYTSWwKprAYvw6WCwpyJBXJgY [5s]
+✅  Production: https://project-porfolio-usecase-km7uaz95j-balajis-projects-847eab8f.vercel.app [5s]
+📝  Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
+💡  To change the domain or build command, go to https://vercel.com/balajis-projects-847eab8f/project-porfolio-usecase/settings

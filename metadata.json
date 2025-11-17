@@ -1,0 +1,5 @@
+{
+  "name": "Knowledge Workspace",
+  "description": "An enterprise-grade application for uploading, organizing, and reading technical documents (PDF and Markdown) with a Kindle-style reading experience. Manage a document taxonomy, browse a filterable library, and enjoy a distraction-free reader with themes, adjustable fonts, and progress saving.",
+  "requestFramePermissions": []
+}
